@@ -12,7 +12,7 @@ export default function App() {
   const handleAddTask = () => {
     Keyboard.dismiss();
     setTaskItems([...taskItems, task]);
-    setTask(null);
+    setTask("");
   }
 
   const completeTask = (index) => {
